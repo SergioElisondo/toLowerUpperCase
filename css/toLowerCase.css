@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+body {
+    background: url('https://live.staticflickr.com/65535/50922099082_847bf8a02b_h.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+.mainBox {
+    font-size: 2vh;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow:hidden;
+}
+
+.innerBox {
+    float: left;
+    width: 70%;
+    height: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+.buttonBox{
+    float: left;
+
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+      
+}
+
